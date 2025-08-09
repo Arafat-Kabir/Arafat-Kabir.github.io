@@ -1,0 +1,10 @@
+/* assets/css/site.css */
+.intro__photo {
+  width: 400px;          /* pick any size you want */
+  height: 400px;         /* keep same as width for a perfect circle */
+  border-radius: 50%;
+  object-fit: cover;     /* crop to fill the circle */
+  object-position: center;
+  display: block;        /* avoids extra inline spacing quirks */
+}
+
